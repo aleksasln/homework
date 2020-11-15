@@ -8,3 +8,7 @@ for i in range(n): #Из предоставленных значений сос�
     for i in range(len(row)):
         row[i] = float(row[i])
     a.append(row)
+
+for i in range(n): #Ищем сумму всех строк полученной матрицы
+    for j in range(n):
+        s += a[i][j]
